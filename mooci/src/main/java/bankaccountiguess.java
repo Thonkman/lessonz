@@ -17,8 +17,8 @@ public class bankaccountiguess {
         while (!IsCorrect) {
             while (!LogInScreen)
                 System.out.println("Enabling Automated Teller Machine...");
+                System.out.println("Enabling Automated Teller Machine...");
                 System.out.println("Enter Account name");
-                System.out.println("");
                 String Accountname = scanner.nextLine();
                 System.out.println("Account Detected " + Accountname);
                 LogInScreen = false;

@@ -2,7 +2,7 @@ package main.java;
 
 import java.util.ArrayList;
 
-public class classtest {
+public class ClassTest {
     public static void main(String[] args) {
         ArrayList<Integer> integers = new ArrayList<>();
 
@@ -12,10 +12,4 @@ public class classtest {
 
         System.out.println(integers.size());
     }
-
-
-
-
-
-
 }

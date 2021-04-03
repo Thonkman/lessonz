@@ -2,7 +2,7 @@ package main.java;
 
 import java.util.Scanner;
 
-public class calc {
+public class Calc {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -14,18 +14,10 @@ public class calc {
             double first = Integer.parseInt(equation[0]);
             double second = Integer.parseInt(equation[2]);
             switch (equation[1]) {
-                case "*": case "x":
-                    System.out.println("your result: " + (first * second));
-                    break;
-                case "+":
-                    System.out.println("your result: " + (first + second));
-                    break;
-                case "-":
-                    System.out.println("your result: " + (first - second));
-                    break;
-                case "/":
-                    System.out.println("your result: " + (first / second));
-                    break;
+                case "*", "x" -> System.out.println("your result: " + (first * second));
+                case "+" -> System.out.println("your result: " + (first + second));
+                case "-" -> System.out.println("your result: " + (first - second));
+                case "/" -> System.out.println("your result: " + (first / second));
             }
             System.out.println("stonp?");
             String stop = scanner.nextLine();

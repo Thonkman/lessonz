@@ -9,6 +9,7 @@ public class Calc {
         boolean stonp = false;
 
         while (!stonp) {
+            System.out.println("gaming");
             System.out.println("enter equation:");
             String[] equation = scanner.nextLine().split(" ");
             double first = Integer.parseInt(equation[0]);
